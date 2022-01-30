@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: aliceblue; */
+    background-image: url(../Img/IMG-20211027-WA0011.jpg);
+    /* background-image:url(/proyectos/Pagina_web_Cactus/Img/IMG-20211027-WA0011.jpg); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*--------------> section header */
+header{
+    background-color: rgb(243, 249, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s;
+    box-shadow: 0px 4px 8px 4px rgb(76, 80, 92);
+
+}
+.texto-inicio{
+    margin-bottom: 2%;
+    background-color: rgba(240, 248, 255, 0.301);
+}
+.texto-inicio h1,h4 {
+    padding:5%;
+}
+
+.logo{
+    width: 30%;
+    margin: 0.5rem;
+}
+.logo ul,a{
+    text-decoration: none;
+    color: rgb(39, 3, 85);
+}
+.logo img{
+    width: 20%;
+    border-radius: 35%;
+}
+.menu-header{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+header ul a:hover{
+    background: rgb(175, 169, 169);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.menu-header a{
+    color: rgb(39, 3, 85);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --------------> section one */
+.one{
+    margin: 2%;
+    background-color: rgba(72, 80, 71, 0.493);
+
+}
+.hola{
+    width: 50%;
+}
+
+
+/* -----------> section two */
+.two{
+    background-color: rgba(231, 225, 225, 0.288);
+    margin: 2%;
+
+}
+.principal{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-especie{
+    background-color: rgba(119, 93, 93, 0.288);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.especie{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.especie img{
+    width: 150px;
+}
+.contenido-especie{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
