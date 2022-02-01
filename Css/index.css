@@ -34,7 +34,7 @@ header{
 }
 
 .logo{
-    width: 30%;
+    width: 20%;
     margin: 0.5rem;
 }
 .logo ul,a{
@@ -204,3 +204,68 @@ header ul a:hover{
 footer{
     background-color: rgb(118, 86, 122);
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    header{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .menu-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+@media screen and (max-width: 678px) {
+    /* ---------------- responsive header */
+    header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .menu-header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .texto-inicio{
+        width: 100%;
+
+    }
+    /* ---------------- resposive section one */
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    /* header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .menu-header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .texto-inicio{
+        width: 100%;
+
+    } */
+}
+
+
+
