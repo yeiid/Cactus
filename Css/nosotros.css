@@ -113,14 +113,67 @@ header ul a:hover{
 
 
 .two{
-    width: 100%;
+    margin: 2%;
 }
 
 .one-section{
     background-color: rgb(104, 97, 97);
+}
+.history{
     width: 100%;
-    
+}
+.history img{
+    width: 10%;
 }
 .texto{
-    margin: 15%;
+    color: rgb(175, 169, 169);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    header{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .menu-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+@media screen and (max-width: 678px) {
+    /* ---------------- responsive header */
+    header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .menu-header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .texto-inicio{
+        width: 100%;
+
+    }
+    /* ---------------- resposive section one */
+
+
 }
